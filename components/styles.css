@@ -1,0 +1,28 @@
+.container {
+  perspective: 100vw;
+  width: 100%;
+}
+.container li,
+.container ul {
+  transform-style: preserve-3d;
+}
+.list-child {
+  transform: rotateY(-45deg) translateZ(0) scale(1);
+  transform-origin: right center;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: 300ms ease-in-out;
+}
+
+.list-child:hover {
+  transform: rotateY(-35deg) translateZ(0) scale(1.02);
+}
+
+@media screen and (max-width: 420px) {
+  .list-child {
+    transform: rotateY(-25deg) translateZ(0) scale(1);
+  }
+  .container {
+    perspective: 200vw;
+  }
+}
