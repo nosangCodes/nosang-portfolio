@@ -5,7 +5,7 @@ export default function CursorBg() {
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const handleMouseMove = (e: { clientX: any; clientY: any; }) => {
+    const handleMouseMove = (e: { clientX: any; clientY: any }) => {
       setCursorPos({ x: e.clientX, y: e.clientY });
     };
 
@@ -15,9 +15,9 @@ export default function CursorBg() {
       document.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
-  
+
   const styleObj = {
-    background: `radial-gradient(600px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+    background: `radial-gradient(700px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
   };
   return (
     <div
