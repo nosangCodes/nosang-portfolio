@@ -2,7 +2,6 @@ import { cn } from "@/lib/utils";
 import { Linkedin } from "lucide-react";
 import React from "react";
 import GithubIcon from "../assets/icons/github-mark-white.svg";
-import GuthubIconWhite from "@/assets/icons/GuthubIconWhite";
 import Image from "next/image";
 
 type Props = {
@@ -24,7 +23,7 @@ export default function Footer({ className }: Props) {
         <li>
           <p className="font-light text-sm">Kalimpong</p>
         </li>
-        <li className="leading-4">
+        <li className="leading-4 text-wrap">
           <a
             className="font-light text-sm hover:text-white transition-colors"
             href="mailto:nosang.codes@gmail.com"

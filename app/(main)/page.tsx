@@ -12,10 +12,6 @@ const homeNavItems = [
     link: "experience",
   },
   {
-    text: "About",
-    link: "about",
-  },
-  {
     text: "Contact",
     link: "contact",
   }

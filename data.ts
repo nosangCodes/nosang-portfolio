@@ -6,7 +6,7 @@ export const experiences: Array<Experience> = [
     role: "Associate Software Engineer",
     company: "Fi Ellements",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam totam magni impedit corrupti sed esse, sequi molestiae enim dolorem molestias id eos excepturi placeat minus laboriosam quod, obcaecati quae, ex qui. Quidem magni rerum accusamus saepe ipsum distinctio mollitia cupiditate qui! Perferendis pariatur et ut ullam ipsam dolores illo provident minus? Reiciendis eligendi obcaecati nesciunt.",
     skills: ["HTML", "CSS", "ReactJs", "JavaScript", "NodeJs"],
-  },
+  }
 ];

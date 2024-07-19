@@ -1,9 +1,12 @@
-import React from 'react'
+import ContactForm from "@/components/contact-form";
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 export default function Contact({}: Props) {
   return (
-    <div>Contact</div>
-  )
+    <section className="mx-auto max-md:w-full flex mt-16 md:mt-20">
+      <ContactForm />
+    </section>
+  );
 }

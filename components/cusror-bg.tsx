@@ -17,7 +17,7 @@ export default function CursorBg() {
   }, []);
 
   const styleObj = {
-    background: `radial-gradient(700px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+    background: `radial-gradient(800px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.18), transparent 80%)`,
   };
   return (
     <div
