@@ -1,5 +1,5 @@
 .container {
-  perspective: 100vw;
+  perspective: 80vw;
   width: 100%;
 }
 .container li,
@@ -18,11 +18,12 @@
   transform: rotateY(-35deg) translateZ(0) scale(1.02);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
   .list-child {
     transform: rotateY(-25deg) translateZ(0) scale(1);
   }
   .container {
-    perspective: 200vw;
+    perspective: none;
+    margin-top: 40px;
   }
 }

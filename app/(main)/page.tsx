@@ -4,10 +4,6 @@ import List from "@/components/list";
 
 const homeNavItems = [
   {
-    text: "Projects",
-    link: "projects",
-  },
-  {
     text: "Experience",
     link: "experience",
   },
