@@ -7,3 +7,9 @@ type Experience = {
   description: string;
   skills: Array<string>;
 };
+
+type ContactForm = {
+  name: string;
+  email: string;
+  message: string;
+};
