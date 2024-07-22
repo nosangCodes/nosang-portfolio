@@ -31,7 +31,7 @@ export default function Footer({ className }: Props) {
             nosang.codes@gmail.com
           </a>
         </li>
-        <li className="mt-8">
+        <li className="mt-4">
           <div className="flex flex-row items-center gap-x-1">
             <a
               className="scale-100 hover:scale-110 transition-transform"
