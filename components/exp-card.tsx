@@ -48,7 +48,7 @@ export default function ExperienceCard({
         <h4 className="text-slate-100 font-semibold max-md:text-sm text-base">
           {role} | {company}
         </h4>
-        <p className="text-slate-400/90 line-clamp-5 text-sm max-md:text-xs tracking-tight">
+        <p className="text-slate-400/90 text-sm max-md:text-xs tracking-tight">
           {description}
         </p>
         <div className="flex flex-row flex-wrap max-md:mt-2 gap-1">
