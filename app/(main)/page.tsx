@@ -8,6 +8,10 @@ const homeNavItems = [
     link: "experience",
   },
   {
+    text: "Projects",
+    link: "projects",
+  },
+  {
     text: "Contact",
     link: "contact",
   }

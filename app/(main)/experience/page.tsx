@@ -27,4 +27,3 @@ export default function page({}: Props) {
   );
 }
 
-// href="https://drive.google.com/file/d/1ReEzKNB3JTszVO8XwARfV2lfYlknivbJ/view?usp=sharing"

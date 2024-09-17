@@ -3,40 +3,12 @@ import React from "react";
 
 const projects = [
   {
-    text: "Alpha",
+    text: "PlantsZen",
+    link: "https://plantszen.nosang.in",
   },
   {
-    text: "Theta Endeavor",
-  },
-  {
-    text: "Beta",
-  },
-  {
-    text: "Delta Assignment",
-  },
-  {
-    text: "Gamma",
-  },
-  {
-    text: "Epsilon Venture",
-  },
-  {
-    text: "Zeta Enterprise",
-  },
-  {
-    text: "Omega",
-  },
-  {
-    text: "Iota",
-  },
-  {
-    text: "Kappa Mission",
-  },
-  {
-    text: "Lambda",
-  },
-  {
-    text: "Mu Challenge",
+    text: "Piclogue",
+    link: "https://piclogue.nosang.in",
   },
 ];
 
