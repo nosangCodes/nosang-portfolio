@@ -10,6 +10,10 @@ const projects = [
     text: "Piclogue",
     link: "https://piclogue.nosang.in",
   },
+  {
+    text: "La Luminous",
+    link: "https://lal-x.nosang.in",
+  },
 ];
 
 type Props = {};
