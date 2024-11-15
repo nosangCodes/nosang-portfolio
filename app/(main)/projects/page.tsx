@@ -14,6 +14,10 @@ const projects = [
     text: "La Luminous",
     link: "https://lal-x.nosang.in",
   },
+   {
+    text: "Weather",
+    link: "https://weather.nosang.in",
+  },
 ];
 
 type Props = {};
