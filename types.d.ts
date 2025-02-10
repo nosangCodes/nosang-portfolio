@@ -7,6 +7,12 @@ type Experience = {
   description: string;
   skills: Array<string>;
 };
+type Project = {
+  name: string;
+  description: string;
+  link: string;
+  tech: Array<string>;
+};
 
 type ContactForm = {
   name: string;
