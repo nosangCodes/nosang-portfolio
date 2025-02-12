@@ -30,6 +30,13 @@ const projects: Array<Project> = [
     link: "https://weather.nosang.in",
     tech: ["React", "OpenWeatherAPI", "TomTomAPI"],
   },
+  {
+    name: "Shorty",
+    description:
+      "The URL Shortener API lets users turn long URLs into short ones with a custom alias. It tracks the number of clicks, unique visitors, and details like the user's operating system, device, and browser. It also records the location of users who access the short URL.",
+    link: "https://github.com/nosangCodes/url-shortner",
+    tech: ["Node.js", "Express", "MongoDb", "Redis", "OAuth"],
+  },
 ];
 
 type Props = {};
