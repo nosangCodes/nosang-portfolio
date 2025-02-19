@@ -18,7 +18,7 @@ export default function page({}: Props) {
       <a
         target="_blank"
         className="flex ml-[24px] w-fit flex-row items-center gap-x-1 mt-5 font-medium max-md:text-base text-lg hover:underline hover:underline-offset-4 hover:text-indigo-600/60 transition-all"
-        href="/resume/nosang.resume.pdf"
+        href="/resume/nosang_mern_stack_developer.pdf"
       >
         <Link height={14} width={14} />
         <p>Resume</p>
@@ -26,4 +26,3 @@ export default function page({}: Props) {
     </div>
   );
 }
-
